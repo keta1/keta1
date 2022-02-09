@@ -1,4 +1,4 @@
-<img align='right' src='pic/00.webp' width='200px'>
+<img align='right' src='pic/00.webp' width='250px'>
 
 ![banner](github-metrics.svg)
 
