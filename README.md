@@ -1,6 +1,6 @@
-<div style="position:relative;"> 
-    <img style='position:absolute;' align='right' src='pic/00.webp' width='300px'/>
+<div style="position:relative; display: flex;"> 
     <img style='position:absolute;' src='github-metrics.svg'/>
+    <img style='position:absolute;' align='right' src='pic/00.webp' width='300px'/>
 </div> 
 
 ### Self Introduction
