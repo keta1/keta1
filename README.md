@@ -1,4 +1,4 @@
-<img align='right' src='https://cdn.jsdelivr.net/gh/RimoChan/rimochan/00.webp' width='410px'>
+<img align='right' src='pic/00.webp' width='410px'>
 
 ### Self Introduction
 A college student who loves open source projects.   
