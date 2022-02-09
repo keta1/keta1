@@ -1,7 +1,7 @@
-<img align='right' src='pic/00.webp' width='250px'>
-
-![banner](github-metrics.svg)
-
+<div style="position:relative;"> 
+    <img style='position:absolute;' align='right' src='pic/00.webp' width='300px'/>
+    <img style='position:absolute;' src='github-metrics.svg'/>
+</div> 
 ### Self Introduction
 A college student who loves open source projects.   
 ***Currently Busy with school work and unavailable***
