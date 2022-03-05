@@ -1,0 +1,232 @@
+---
+- taxonomy: 个人相关
+  icon: fa-star
+  links:
+    - title: 博客
+      logo: assets/images/avatar.jepg
+      url: "https://blog.ketal.icu"
+      description: "狐言狐语和仙贝的魔法学习记录"
+    - title: GitHub
+      logo: assets/images/logos/GitHub.svg
+      url: https://github.com/keta1
+      description: "GitHub 个人主页"
+    - title: Telegram群组
+      logo: assets/images/logos/telegram.svg
+      url: https://t.me/+x9lJkv4yehVjODQ1
+      description: 象牙塔
+
+- taxonomy: 常用
+  icon: fa-pinterest
+  links:
+    - title: Outlook
+      logo: assets/images/logos/light-component-outlook-Forwardmail.svg
+      url: https://outlook.live.com/mail/0/
+      description: Outlook 网页版链接
+
+- taxonomy: 开发依赖
+  icon: fa-code
+  list:
+    - term: 技术文档
+      links:
+        - title: Android API
+          url: https://developer.android.com/reference
+          logo: assets/images/logos/android.jpg
+          description: Android API Reference
+        - title: KOGE
+          url: https://koge.2bab.me/
+          description: 面向 Kotlin 的 Gradle 基础手册
+        - title: Docker CLI
+          url: https://docs.docker.com/compose/reference/
+          logo: assets/images/logos/Docker.svg
+          description: Docker 指令介绍
+    - term: 平台组件
+      links:
+        - title: DeepSource
+          url: https://deepsource.io/
+          logo: assets/images/logos/deepsource.png
+          description: 代码质量审查
+        - title: MakeSense
+          url: https://www.makesense.ai/
+          logo: assets/images/logos/make-sense.png
+          description: 图像数据集标注
+        - title: Cloud Studio
+          url: https://gh.cloudstudio.net/dashboard/general
+          logo: assets/images/logos/visualstudio.svg
+          description: 在线编程环境
+        - title: Free AI Hub
+          logo: assets/images/logos/狐狸logo.svg
+          url: https://www.freeaihub.com/
+          description: 交互式编程教学
+        - title: OpenAI Gym
+          url: https://gym.openai.com/
+          logo: assets/images/logos/OpenAI.png
+          description: 强化学习算法开发平台
+        - title: ip111
+          url: http://www.ip111.cn/
+          logo: assets/images/logos/IP address.svg
+          description: 映射当前网络的外网IP地址
+        - title: AntiBot
+          url: https://bot.sannysoft.com/
+          logo: assets/images/logos/antibot 爬虫风险管理.svg
+          description: 映射当前浏览器驱动的运行参数
+
+- taxonomy: 素材资源
+  icon: fa-thumbs-up
+  list:
+    - term: 娱乐
+      links:
+        - title: 哔哩哔哩
+          url: https://www.bilibili.com/
+          logo: assets/images/logos/bilibili.png
+          description: 叔叔我啊
+        - title: 网抑云音乐
+          url: http://music.163.com/
+          logo: assets/images/logos/neteasemusic.png
+          description: 音乐社区
+        - title: AGE.TV
+          url: https://www.agemys.com/
+          logo: assets/images/logos/AGETV.jpg
+          description: 动漫番剧在线观看
+        - title: 片库
+          url: https://www.btnull.org/
+          logo: assets/images/logos/片库.jpg
+          description: 免费的影视资源站点
+    - term: 图标素材
+      links:
+        - title: iconfont
+          logo: assets/images/logos/iconfont.png
+          url: http://www.iconfont.cn/
+          description: 阿里巴巴矢量图标库
+        - title: Iconfinder
+          logo: assets/images/logos/Iconfinder.png
+          url: https://www.iconfinder.com
+          description: 2,100,000+ free and premium vector icons.
+        - title: FindIcons
+          logo: assets/images/logos/FindIcons.png
+          url: https://findicons.com/
+          description: Search through 300,000 free icons
+        - title: easyicon
+          logo: assets/images/logos/easyicon.png
+          url: http://www.easyicon.net/
+          description: PNG、ICO、ICNS格式图标搜索、图标下载服务
+        - title: Font Awesome Icon
+          logo: assets/images/logos/fontawesomeicon.png
+          url: https://fontawesome.com/icons/
+          description: The complete set of 675 icons in Font Awesome
+        - title: Tabler Icons
+          logo: assets/images/logos/TablerIcons.svg
+          url: https://tablericons.com/
+          description: 1424 Fully customizable free SVG icons. (MIT license)
+    - term: 媒体资源
+      links:
+        - title: Pixabay
+          url: https://pixabay.com/
+          logo: assets/images/logos/pixabay.png
+          description: "可在任何地方使用的免费图片和视频"
+        - title: Unsplash
+          url: https://unsplash.com/
+          logo: assets/images/logos/unsplash.png
+          description: "美丽而免费的照片"
+        - title: Pexels
+          url: https://www.pexels.com/zh-cn/
+          logo: assets/images/logos/7275380_pexels_apps_platform_icon.svg
+          description: "精彩的素材图片和视频"
+        - title: coverr
+          url: "https://coverr.co/"
+          logo: assets/images/logos/coverr.png
+          description: "Beautiful Free Stock Video Footage"
+        - title: MixKit
+          url: "https://mixkit.co/"
+          logo: assets/images/logos/mixkit.jpg
+          description: "Free assets for your next video project"
+        - title: videvo
+          url: "https://www.videvo.net/"
+          logo: assets/images/logos/videvo.png
+          description: "Free Stock Video Footage"
+        - title: Wallpaper
+          url: https://wall.alphacoders.com/?lang=Chinese
+          logo: assets/images/logos/wallpaper-alphacoders.jpg
+          description: 免费高清壁纸
+        - title: Wallhaven
+          url: https://wallhaven.cc/
+          logo: assets/images/logos/wallhaven.png
+          description: 桌面壁纸
+
+    - term: 字体资源
+      links:
+        - title: fontspace
+          url: https://www.fontspace.com/
+          logo: assets/images/logos/fontspace-logo-white-text.jpg
+          description: 88,000+ Free Fonts
+        - title: 100font
+          url: https://www.100font.com/
+          logo: assets/images/logos/100font.png
+          description: "一个专门收集整理「免费商用字体」的网站"
+
+    - term: PPT资源
+      links:
+        - title: OfficePLUS
+          url: http://www.officeplus.cn/Template/Home.shtml
+          logo: assets/images/logos/officeplus.png
+          description: OfficePLUS，微软Office官方在线模板网站！
+        - title: 优品PPT
+          url: http://www.ypppt.com/
+          logo: assets/images/logos/ypppt.png
+          description: 高质量的模版，而且还有PPT图表，PPT背景图等资源
+        - title: PPT超级市场
+          url: https://www.pptsupermarket.com/
+          logo: assets/images/logos/ppt超级市场.jpg
+          description: OfficePLUS，微软Office官方在线模板网站！
+
+- taxonomy: 关联导航
+  icon: fa-compass
+  list:
+    - term: 技术导航
+      links:
+        - title: 鱼皮导航
+          url: https://www.code-nav.cn/
+          logo: assets/images/logos/yupi-nav.png
+          description: 站长鱼皮的编程导航
+        - title: GitHub 中文社区
+          url: https://www.githubs.cn/
+          logo: assets/images/logos/GitHub.svg
+          description: 分享和传播优质开源的 GitHub 项目
+        - title: HelloGitHub
+          url: https://hellogithub.com/
+          logo: assets/images/logos/HelloGitHub.png
+          description: 分享 GitHub 上有趣、入门级的开源项目
+
+- taxonomy: OSINT
+  icon: fa-user-secret
+  list:
+    - term: OSINT
+      links:
+      - title: WhatMyName
+        url: https://whatsmyname.app/
+        logo: assets/images/logos/whatmyname.jpg
+        description: 用户名搜索引擎
+      - title: crt.sh
+        url: https://crt.sh/?
+        logo: assets/images/logos/crt-sh.png
+        description: 证书搜索引擎
+      - title: ZoomEye
+        url: https://www.zoomeye.org/component
+        logo: assets/images/logos/ZoomeEye.jpg
+        description: 互联网资产搜索引擎
+      - title: Shodan
+        url: https://www.shodan.io/
+        logo: assets/images/logos/shodan.jpg
+        description: 互联网连接设备搜索引擎
+      - title: SunCalc
+        url: http://suncalc.net/
+        logo: assets/images/logos/SunCalc.jpg
+        description: 获取指定时刻的太阳位置和日光相位
+      - title: REG007
+        url: https://www.reg007.com
+        logo: assets/images/logos/reg007.jpg
+        description: 用户画像分析
+      - title: OpenGPS
+        url: https://www.opengps.cn/Data/IP/ipplus.aspx
+        logo: assets/images/logos/opengps.jpg
+        description: 高精度IP定位
+

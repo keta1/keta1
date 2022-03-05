@@ -1,0 +1,17 @@
+baseURL: "https://nav.ketal.icu/"
+languageCode: "zh-CN"
+title: "仙贝的传送阵"
+theme: "webstack-hugo"
+preserveTaxonomyNames: true
+disablePathToLower: true
+hasCJKLanguage: true
+copyright: "keta1"
+publishDir: docs
+
+params:
+  author: "keta1"
+  description: " 書庫に眠れる小さな賢人"
+  search:
+    enable: true
+  darkmode:
+    enable: false
