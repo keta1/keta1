@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v2
       - name: aaa
         run: |
-          echo ${{(github.event.issue.labels}}
+          echo ${{(github.event.issue}}
       - if: contains(github.event.issue.labels, 'template' ) == false
         id: close
         name: Close Issue(template)
