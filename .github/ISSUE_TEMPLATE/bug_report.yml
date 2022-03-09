@@ -73,7 +73,7 @@ body:
     attributes:
       label: Version requirement/版本要求
       options:
-        - label: I am using latest debug CI version of Hide-My-Applist and enable verbose log/我正在使用最新 CI 调试版本且启用详细日志
+        - label: I am using latest debug CI version of Hide-My-Applist and enable verbose log/我正在使用最新 CI 调试版本且启用详细日志<!--- ejfweaxptgrsgxed--->
           required: true
   - type: textarea
     attributes:
