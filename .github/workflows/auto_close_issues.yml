@@ -10,7 +10,7 @@ jobs:
       - name: Check out
         uses: actions/checkout@v2
       - name: aaa
-         run: |
+        run: |
           echo ${{(github.event.issue.labels}}
       - if: contains(github.event.issue.labels, 'template' ) == false
         id: close
