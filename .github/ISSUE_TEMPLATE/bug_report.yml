@@ -48,7 +48,7 @@ body:
       required: true
   - type: input
     attributes:
-      label: LSPosed version/LSPosed 版本
+      label: Hide-My-Applist version/Hide-My-Applist 版本
       description:  Don't use 'latest'. Specify actual version, otherwise your issue will be closed./不要填用“最新版”。给出具体版本号，不然 issue 会被关闭。
     validations:
       required: true
