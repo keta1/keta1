@@ -1,38 +1,84 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+name: Bug report/反馈 Bug
+description: Report errors or unexpected behavior./反馈错误或异常行为。
+labels: [bug]
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting issues of LSPosed!
 
----
-
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+        To make it easier for us to help you please enter detailed information below.
+        
+        感谢给 LSPosed 汇报问题！
+        为了使我们更好地帮助你，请提供以下信息。
+        为了防止重复汇报，标题请务必使用英文。
+  - type: textarea
+    attributes:
+      label: Steps to reproduce/复现步骤
+      placeholder: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behaviour/预期行为
+      placeholder: Tell us what should happen/正常情况下应该发生什么
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual behaviour/实际行为
+      placeholder: Tell us what happens instead/实际上发生了什么
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Xposed Module List/Xposed 模块列表
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Magisk Module List/Magisk 模块列表
+      render: shell
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: LSPosed version/LSPosed 版本
+      description:  Don't use 'latest'. Specify actual version with 4 digits, otherwise your issue will be closed./不要填用“最新版”。给出四位版本号，不然 issue 会被关闭。
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Android version/Android 版本
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Magisk version/Magisk 版本
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Riru version/Riru 版本
+      description: If you are using Zygisk version, input `N/A` instead./如果正在使用 Zygisk 版本，请键入 `N/A`。
+    validations:
+      required: true
+  - type: checkboxes
+    id: latest
+    attributes:
+      label: Version requirement/版本要求
+      options:
+        - label: I am using latest debug CI version of LSPosed and enable verbose log/我正在使用最新 CI 调试版本且启用详细日志
+          required: true
+  - type: textarea
+    attributes:
+      label: Logs/日志
+      description: For usage issues, please provide the log zip saved from manager; for activation issues, please provide [bugreport](https://developer.android.com/studio/debug/bug-report). Without log, the issue will be closed. /使用问题请提供从管理器保存的日志压缩包；激活问题请提供 [bugreport](https://developer.android.google.cn/studio/debug/bug-report?hl=zh-cn) 日志。无日志提交会被关闭。
+      placeholder: Upload logs by clicking the bar on the bottom. /点击文本框底栏上传日志文件。
+    validations:
+      required: true
